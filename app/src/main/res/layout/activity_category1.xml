@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hussein.farhetkm.Category1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="55dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/cattt"
+
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Suits"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/Suits"
+        android:layout_below="@+id/cattt"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Dresses"
+        android:id="@+id/Dresses"
+
+        android:layout_below="@+id/Suits"
+        android:layout_marginLeft="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/Accessories"
+        android:layout_marginRight="25dp"
+
+      android:layout_below="@+id/Dresses"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+
+        />
+
+</RelativeLayout>

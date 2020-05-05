@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Adddresscat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Accessories"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:id="@+id/tv30"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/selectpro"
+        android:cropToPadding="false"
+        android:layout_below="@+id/tv30"
+        android:scaleType="fitCenter"
+        android:src="@drawable/select_product_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="60dp"
+        android:paddingLeft="10dp"
+
+        />
+
+
+    <Spinner
+        android:id="@+id/subcatspiner"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/selectpro"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proprice"
+        android:layout_below="@+id/subcatspiner"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:hint="product price "
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/inputs"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prodesc"
+        android:layout_below="@+id/proprice"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:hint="product description  "
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/inputs"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/protype"
+        android:layout_below="@+id/prodesc"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/inputs"
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent"
+            android:textSize="20dp"
+            android:id="@+id/rent"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sale"
+            android:textSize="20dp"
+            android:id="@+id/sale"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addpro"
+        android:layout_below="@+id/protype"
+        android:text="add  new product"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+
+        />
+
+</RelativeLayout>

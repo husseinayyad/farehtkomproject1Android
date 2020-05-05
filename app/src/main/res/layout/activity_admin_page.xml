@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hussein.farhetkm.AdminPage">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/name00"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Welcome  Admin"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name00"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnview"
+        android:text="View App"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnview"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnviewuser"
+        android:text="Show Users"
+        android:layout_marginTop="50dp"
+
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnviewuser"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnlogout"
+        android:text="Log Out"
+        android:layout_marginTop="50dp"
+
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</RelativeLayout>

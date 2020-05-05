@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmorderActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Please Write your  Shipment Details"
+        android:textSize="18dp"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/txtname"
+        android:hint="Your Name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txtname"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+android:id="@+id/txtadrees"
+        android:hint="Your Home  Address"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txtadrees"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/txtcity"
+
+        android:hint="Your City Name"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Confirm"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:id="@+id/confirembtn"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

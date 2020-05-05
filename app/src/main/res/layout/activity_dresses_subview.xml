@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hussein.farhetkm.DressesSubview">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Dresses
+ SubCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/cattt"
+
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Wedding Dress"
+        android:id="@+id/wd"
+        android:layout_below="@+id/cattt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+
+        android:layout_marginTop="50dp"
+        android:textSize="35dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Party Dress"
+        android:id="@+id/pd"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/wd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Simple dress"
+        android:id="@+id/sd"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/pd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="35dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+
+        />
+</RelativeLayout>
